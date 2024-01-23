@@ -1,0 +1,10 @@
+@authorized_api_header_HostAddress = http://localhost:5280
+
+GET {{authorized_api_header_HostAddress}}/home/index
+Accept: application/json
+
+
+GET {{authorized_api_header_HostAddress}}/home/secret
+Accept: application/json
+
+###
