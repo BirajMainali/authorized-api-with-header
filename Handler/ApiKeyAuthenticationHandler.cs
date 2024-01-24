@@ -1,14 +1,11 @@
 ﻿using authorized_api_header.Constants;
 using authorized_api_header.Validators;
-
-namespace authorized_api_header.Handler;
-
 using Microsoft.AspNetCore.Authentication;
-using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using System.Security.Claims;
 using System.Text.Encodings.Web;
-using System.Threading.Tasks;
+
+namespace authorized_api_header.Handler;
 
 public class ApiKeyAuthenticationHandler : AuthenticationHandler<AuthenticationSchemeOptions>
 {

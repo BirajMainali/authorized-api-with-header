@@ -1,8 +1,8 @@
-﻿namespace authorized_api_header.Helper;
-
-using Constants;
+﻿using authorized_api_header.Constants;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
+
+namespace authorized_api_header.OpenAiParameters;
 
 public class AddRequiredHeaderParameter : IOperationFilter
 {

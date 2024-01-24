@@ -1,6 +1,6 @@
 using authorized_api_header.Constants;
 using authorized_api_header.Handler;
-using authorized_api_header.Helper;
+using authorized_api_header.OpenAiParameters;
 using authorized_api_header.Validators;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.OpenApi.Models;
